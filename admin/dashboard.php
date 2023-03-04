@@ -79,9 +79,9 @@ mysqli_close($conn);
     <!-- Sidebar menu-->
     <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
     <aside class="app-sidebar">
-      <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/48.jpg" alt="User Image">
+      <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="../assets/images/mole.png" alt="User Image">
         <div>
-          <p class="app-sidebar__user-name">Ibrahim</p>
+          <p class="app-sidebar__user-name">Zainab Ibrahim</p>
           <p class="app-sidebar__user-designation">Admin</p>
         </div>
       </div>
@@ -91,7 +91,7 @@ mysqli_close($conn);
           <ul class="treeview-menu">
             <li><a class="treeview-item" href="page-reports-confirmed.php"><i class="icon fa fa-circle-o"></i> Confirmed Reports</a></li>
             <li><a class="treeview-item" href="page-reports-unconfirmed.php"><i class="icon fa fa-circle-o"></i> Unconfirmed Reports</a></li>
-            <li><a class="treeview-item" href="page-reports.html.php"><i class="icon fa fa-circle-o"></i> All Reports</a></li>
+            <li><a class="treeview-item" href="page-reports.php"><i class="icon fa fa-circle-o"></i> All Reports</a></li>
           </ul>
         </li>
         <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-laptop"></i><span class="app-menu__label">User Management</span><i class="treeview-indicator fa fa-angle-right"></i></a>
@@ -100,7 +100,7 @@ mysqli_close($conn);
             <li><a class="treeview-item" href="page-users-list.php"><i class="icon fa fa-circle-o"></i> Users List</a></li>
           </ul>
         </li>
-        <li><a class="app-menu__item" href="docs.html"><i class="app-menu__icon fa fa-file-code-o"></i><span class="app-menu__label">Docs</span></a></li>
+        <!-- <li><a class="app-menu__item" href="docs.html"><i class="app-menu__icon fa fa-file-code-o"></i><span class="app-menu__label">Docs</span></a></li> -->
       </ul>
     </aside>
     <main class="app-content">
@@ -203,30 +203,30 @@ mysqli_close($conn);
       	]
       };
       var pdata = [
-      	{
-      		value: 20,
-      		color: "#46BFBD",
-      		highlight: "#5AD3D1",
-      		label: "Inpersonation"
-      	},
-      	{
-      		value: 90,
+      	// {
+      	// 	value: 20,
+      	// 	color: "#46BFBD",
+      	// 	highlight: "#5AD3D1",
+      	// 	label: "Inpersonation"
+      	// },
+      	{ 
+      		value: <?php echo $count_report_unconfirmed_row['r_id']; ?>,
       		color:"#C7464A",
       		highlight: "#FF5A5E",
-      		label: "Online Shopping"
+      		label: "Unconfirmed Fraud Reports"
       	},
         {
-      		value: 110,
+      		value: <?php echo $count_report_confirmed_row['r_id']; ?>,
       		color: "#FDB45C",
       		highlight: "#FFC870",
-      		label: "Transfer"
+      		label: "Confirmed Fraud Reports"
       	},
-        {
-      		value: 80,
-      		color: "#46BFBD",
-      		highlight: "#5AD3D1",
-      		label: "Money"
-      	}
+        // {
+      	// 	value: 80,
+      	// 	color: "#46BFBD",
+      	// 	highlight: "#5AD3D1",
+      	// 	label: "Money"
+      	// }
       ]
       
       var ctxl = $("#lineChartDemo").get(0).getContext("2d");

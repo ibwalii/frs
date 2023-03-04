@@ -81,7 +81,7 @@ mysqli_close($conn);
                             <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="about.php">FAQ</a>
+                            <a class="nav-link" href="#">FAQ</a>
                         </li>
                     </ul>
                     <div class="top-quote mt-lg-0">

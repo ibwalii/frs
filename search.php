@@ -101,8 +101,8 @@ mysqli_close($conn);
     <section class="w3l-breadcrumb">
         <div class="container">
             <ul class="breadcrumbs-custom-path">
-                <li><a href="index.html">Home</a></li>
-                <li class="active"><span class="fa fa-angle-right mx-2" aria-hidden="true"></span> Listing</li>
+                <li><a href="index.php">Home</a></li>
+                <li class="active"><span class="fa fa-angle-right mx-2" aria-hidden="true"></span> Fraud Report List</li>
             </ul>
         </div>
     </section>

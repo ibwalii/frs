@@ -121,9 +121,9 @@ $admin_comment_row = mysqli_fetch_assoc($admin_comment_result);
     <section class="w3l-breadcrumb">
         <div class="container">
             <ul class="breadcrumbs-custom-path">
-                <li><a href="index.html">Home</a></li>
-                <li class="active"><span class="fa fa-angle-right mx-2" aria-hidden="true"></span> Property</li>
-                <li class="active"><span class="fa fa-angle-right mx-2" aria-hidden="true"></span> property single</li>
+                <li><a href="index.php">Home</a></li>
+                <!-- <li class="active"><span class="fa fa-angle-right mx-2" aria-hidden="true"></span> Property</li>
+                <li class="active"><span class="fa fa-angle-right mx-2" aria-hidden="true"></span> property single</li> -->
             </ul>
         </div>
     </section>
@@ -132,8 +132,10 @@ $admin_comment_row = mysqli_fetch_assoc($admin_comment_result);
         <div class="container py-lg-4 py-md-3 py-2">
             <div class="inner mb-4">
                 <ul class="blog-single-author-date align-items-center">
-                    <li><span class="fa fa-clock-o"></span> 5 months ago</li>
-                    <li><span class="fa fa-eye"></span> 250 views</li>
+                    <li><span class="fa fa-clock-o"></span> 
+                        <?php if(isset($row['date']) && !empty($row['date'])) { echo $row['date']; }else{ echo "Not Assigned"; } ?>
+                    </li>
+                    <!-- <li><span class="fa fa-eye"></span> 250 views</li> -->
                 </ul>
             </div>
             <div class="post-content">
