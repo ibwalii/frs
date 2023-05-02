@@ -6,7 +6,7 @@ Author URL: http://w3layouts.com
 // Connection
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "root";
 $dbname = "frs";
 
 // Create connection
