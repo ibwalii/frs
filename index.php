@@ -2,19 +2,8 @@
 Author: W3layouts
 Author URL: http://w3layouts.com
 -->
+<?php include_once("connection.php"); ?>
 <?php
-// Connection
-$servername = "localhost";
-$username = "root";
-$password = "root";
-$dbname = "frs";
-
-// Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
-// Check connection
-if (!$conn) {
-  die("Connection failed: " . mysqli_connect_error());
-}
 
     $search_sql = "SELECT * FROM reports where r_status = 1 order by r_id desc";
     $search_result = mysqli_query($conn, $search_sql);

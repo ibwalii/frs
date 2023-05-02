@@ -4,7 +4,7 @@ session_start();
 // Connection
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "root";
 $dbname = "frs";
 
 // Create connection

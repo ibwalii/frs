@@ -2,20 +2,9 @@
 Author: W3layouts
 Author URL: http://w3layouts.com
 -->
+<?php include_once("connection.php"); ?>
 <?php
 
-// Connection
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "frs";
-
-// Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
-// Check connection
-if (!$conn) {
-  die("Connection failed: " . mysqli_connect_error());
-}
 
 if(isset($_GET['r_id'])){
   $r_id = $_GET['r_id'];
