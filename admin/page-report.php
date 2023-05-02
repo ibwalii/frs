@@ -1,16 +1,5 @@
+<?php include_once("../connection.php"); ?>
 <?php
-// Connection
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "frs";
-
-// Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
-// Check connection
-if (!$conn) {
-  die("Connection failed: " . mysqli_connect_error());
-}
 
 // update report
 if(isset($_POST['update_report'])){

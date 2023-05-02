@@ -1,16 +1,6 @@
+<?php include_once("../connection.php"); ?>
 <?php
-// Connection
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "frs";
 
-// Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
-// Check connection
-if (!$conn) {
-  die("Connection failed: " . mysqli_connect_error());
-}
 
     $count_report_unconfirmed_sql = "SELECT count(r_id) as r_id FROM `reports` WHERE r_status= 0";
     $count_report_unconfirmed_result = mysqli_query($conn, $count_report_unconfirmed_sql);

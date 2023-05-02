@@ -1,18 +1,7 @@
+<?php include_once("../connection.php"); ?>
 <?php
 // Start Session
 session_start();
-// Connection
-$servername = "localhost";
-$username = "root";
-$password = "root";
-$dbname = "frs";
-
-// Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
-// Check connection
-if (!$conn) {
-  die("Connection failed: " . mysqli_connect_error());
-}
 
 if(isset($_POST['username'])){
     $username = $_POST['username'];
