@@ -128,7 +128,7 @@ mysqli_close($conn);
                                                     </a>
                                                     <div class="listing-details blog-details align-self">
                                                         <h4 class="user_title agent">
-                                                            <a href="#url">
+                                                        <a href="report_single.php?r_id=<?php echo $search_row['r_id']; ?>">
                                                                 <?php echo $search_row['r_title']; ?>
                                                                 [<?php echo $search_row['r_comm']; ?>]
                                                             </a>

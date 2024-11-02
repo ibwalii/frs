@@ -104,7 +104,7 @@
     <aside class="app-sidebar">
     <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="../assets/images/mole.png" alt="User Image">
         <div>
-          <p class="app-sidebar__user-name">Zainab Ibrahim</p>
+          <p class="app-sidebar__user-name">Admin</p>
           <p class="app-sidebar__user-designation">Admin</p>
         </div>
       </div>
