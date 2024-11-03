@@ -1,7 +1,3 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
--->
 <?php include_once("connection.php"); ?>
 <?php
 

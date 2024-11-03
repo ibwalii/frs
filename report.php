@@ -1,7 +1,3 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
--->
 <!doctype html>
 <html lang="en">
 
@@ -41,6 +37,7 @@ Author URL: http://w3layouts.com
                         <li class="nav-item active">
                             <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                         </li>
+                        <li class="nav-item active"><a class="nav-link" href="blog.php">Safety Tips</a></li>
                         <li class="nav-item active">
                             <a class="nav-link" href="#">FAQ</a>
                         </li>

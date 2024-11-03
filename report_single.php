@@ -1,7 +1,3 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
--->
 <?php include_once("connection.php"); ?>
 <?php
 
@@ -87,6 +83,7 @@ $admin_comment_row = mysqli_fetch_assoc($admin_comment_result);
                         <li class="nav-item active">
                             <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                         </li>
+                        <li class="nav-item active"><a class="nav-link" href="blog.php">Safety Tips</a></li>
                         <li class="nav-item active">
                             <a class="nav-link" href="about.php">About</a>
                         </li>
