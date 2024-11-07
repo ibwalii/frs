@@ -35,9 +35,12 @@ mysqli_close($conn);
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav ml-lg-5 mr-auto">
                         <li class="nav-item active"><a class="nav-link" href="index.php">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="blog.php">Safety Tips</a></li>
                         <li class="nav-item"><a class="nav-link" href="faq.php">FAQ</a></li>
                     </ul>
+                    <div class="top-quote mt-lg-0">
+                        <a href="blog.php" class="btn btn-style btn-primary"><span class="fa fa-lock"></span> Security Center
+                        </a>
+                    </div>
                     <div class="top-quote mt-lg-0">
                         <a href="report.php" class="btn btn-style btn-primary"><span class="fa fa-send"></span> Report Now</a>
                     </div>

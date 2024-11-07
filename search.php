@@ -68,6 +68,10 @@ mysqli_close($conn);
                         </li>
                     </ul>
                     <div class="top-quote mt-lg-0">
+                        <a href="blog.php" class="btn btn-style btn-primary"><span class="fa fa-lock"></span> Security Center
+                        </a>
+                    </div>
+                    <div class="top-quote mt-lg-0">
                         <a href="report.php" class="btn btn-style btn-primary"><span class="fa fa-send"></span> Report
                             Now</a>
                     </div>

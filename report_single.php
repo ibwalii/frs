@@ -83,11 +83,14 @@ $admin_comment_row = mysqli_fetch_assoc($admin_comment_result);
                         <li class="nav-item active">
                             <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item active"><a class="nav-link" href="blog.php">Safety Tips</a></li>
                         <li class="nav-item active">
                             <a class="nav-link" href="about.php">About</a>
                         </li>
                     </ul>
+                    <div class="top-quote mt-lg-0">
+                        <a href="blog.php" class="btn btn-style btn-primary"><span class="fa fa-lock"></span> Security Center
+                        </a>
+                    </div>
                     <div class="top-quote mt-lg-0">
                         <a href="report.php" class="btn btn-style btn-primary"><span class="fa fa-send"></span> Report
                             Now</a>
