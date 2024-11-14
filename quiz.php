@@ -138,8 +138,9 @@
     <section class="quiz-container" id="quiz">
         <h3 class="text-center">Test Your Knowledge on Cyber Safety</h3>
         <form method="POST" action="">
-            <?php
-            $quiz_sql = "SELECT * FROM quiz_questions ORDER BY id ASC";
+        <?php
+            // Randomize the order of questions
+            $quiz_sql = "SELECT * FROM quiz_questions ORDER BY RAND() LIMIT 5";
             $quiz_result = mysqli_query($conn, $quiz_sql);
             $question_number = 1;
 
@@ -171,7 +172,6 @@
             <div id="resultMessage"></div>
         </div>
     </div>
-
     <?php
     if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['answer'])) {
         $score = 0;
@@ -187,10 +187,23 @@
             }
             $total_questions++;
         }
+
+        // Determine response based on score
+        $response_message = '';
+        $percentage = ($score / $total_questions) * 100;
+
+        if ($percentage >= 80) {
+            $response_message = "Excellent! You scored $score out of $total_questions. You’re very knowledgeable on cyber safety!";
+        } elseif ($percentage >= 50) {
+            $response_message = "Good job! You scored $score out of $total_questions. Keep learning to improve your cyber safety awareness.";
+        } else {
+            $response_message = "You scored $score out of $total_questions. Don’t worry! Review the cyber safety tips to stay safe online.";
+        }
+
         echo "<script>
                 document.addEventListener('DOMContentLoaded', function() {
                     var resultMessage = document.getElementById('resultMessage');
-                    resultMessage.innerHTML = '<h4>Your Score: $score out of $total_questions</h4>';
+                    resultMessage.innerHTML = '<h4>$response_message</h4>';
                     document.getElementById('resultModal').style.display = 'block';
                 });
               </script>";
