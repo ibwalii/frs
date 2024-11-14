@@ -56,19 +56,19 @@ if(isset($_GET['r_id'])){
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="description" content="Vali is a responsive and free admin theme built with Bootstrap 4, SASS and PUG.js. It's fully customizable and modular.">
+    <meta name="description" content="Police FRS is a responsive and free admin theme built with Bootstrap 4, SASS and PUG.js. It's fully customizable and modular.">
     <!-- Twitter meta-->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:site" content="@pratikborsadiya">
     <meta property="twitter:creator" content="@pratikborsadiya">
     <!-- Open Graph Meta-->
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Vali Admin">
-    <meta property="og:title" content="Vali - Free Bootstrap 4 admin theme">
+    <meta property="og:site_name" content="Police FRS Admin">
+    <meta property="og:title" content="Police FRS - Free Bootstrap 4 admin theme">
     <meta property="og:url" content="http://pratikborsadiya.in/blog/vali-admin">
     <meta property="og:image" content="http://pratikborsadiya.in/blog/vali-admin/hero-social.png">
-    <meta property="og:description" content="Vali is a responsive and free admin theme built with Bootstrap 4, SASS and PUG.js. It's fully customizable and modular.">
-    <title>User Profile - Vali Admin</title>
+    <meta property="og:description" content="Police FRS is a responsive and free admin theme built with Bootstrap 4, SASS and PUG.js. It's fully customizable and modular.">
+    <title>User Profile - Police FRS Admin</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -79,7 +79,7 @@ if(isset($_GET['r_id'])){
   </head>
   <body class="app sidebar-mini">
     <!-- Navbar-->
-    <header class="app-header"><a class="app-header__logo" href="dashboard.php"><span class="fa fa-shield"></span> Defence FRS</a>
+    <header class="app-header"><a class="app-header__logo" href="dashboard.php"><span class="fa fa-shield"></span> Police FRS</a>
       <!-- Sidebar toggle button--><a class="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label="Hide Sidebar"></a>
       <!-- Navbar Right Menu-->
       <ul class="app-nav">
