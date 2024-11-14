@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Defence Fraud Report System - Cyber Safety Quiz</title>
+    <title>Police Fraud Report System - Cyber Safety Quiz</title>
     <link href="//fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style-starter.css">
     <style>
@@ -54,7 +54,7 @@
     <header id="site-header" class="fixed-top">
         <div class="container">
             <nav class="navbar navbar-expand-lg stroke px-0">
-                <h1><a class="navbar-brand" href="index.php"><span class="fa fa-shield"></span> Defence FRS</a></h1>
+                <h1><a class="navbar-brand" href="index.php"><span class="fa fa-shield"></span> Police FRS</a></h1>
                 <!-- Navbar toggler, links, and other header code -->
             </nav>
         </div>

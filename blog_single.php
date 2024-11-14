@@ -39,7 +39,7 @@ mysqli_close($conn);
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title><?php echo htmlspecialchars($title); ?> - Defence FRS Blog</title>
+    <title><?php echo htmlspecialchars($title); ?> - Police FRS Blog</title>
     <link href="//fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style-starter.css">
 </head>
@@ -49,7 +49,7 @@ mysqli_close($conn);
     <header id="site-header" class="fixed-top">
         <div class="container">
             <nav class="navbar navbar-expand-lg stroke px-0">
-                <h1><a class="navbar-brand" href="index.php"><span class="fa fa-shield"></span> Defence FRS</a></h1>
+                <h1><a class="navbar-brand" href="index.php"><span class="fa fa-shield"></span> Police FRS</a></h1>
                 <button class="navbar-toggler collapsed bg-gradient" type="button" data-toggle="collapse"
                         data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -109,7 +109,7 @@ mysqli_close($conn);
         <div class="footers20">
             <div class="container">
                 <div class="footers20-content">
-                    <p class="copy-footer-29 text-center">© 2024 Defence Fraud Reporting Portal. All rights reserved.</p>
+                    <p class="copy-footer-29 text-center">© 2024 Police Fraud Reporting Portal. All rights reserved.</p>
                 </div>
             </div>
         </div>

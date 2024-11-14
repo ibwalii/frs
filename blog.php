@@ -15,9 +15,10 @@ mysqli_close($conn);
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Defence Fraud Report System - Blog</title>
+    <title>Police Fraud Report System - Blog</title>
     <link href="//fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style-starter.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -25,26 +26,8 @@ mysqli_close($conn);
     <header id="site-header" class="fixed-top">
         <div class="container">
             <nav class="navbar navbar-expand-lg stroke px-0">
-                <h1><a class="navbar-brand" href="index.php"><span class="fa fa-shield"></span> Defence FRS</a></h1>
-                <button class="navbar-toggler collapsed bg-gradient" type="button" data-toggle="collapse"
-                        data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
-                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav ml-lg-5 mr-auto">
-                        <li class="nav-item active"><a class="nav-link" href="index.php">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="faq.php">FAQ</a></li>
-                    </ul>
-                    <div class="top-quote mt-lg-0">
-                        <a href="blog.php" class="btn btn-style btn-primary"><span class="fa fa-lock"></span> Security Center
-                        </a>
-                    </div>
-                    <div class="top-quote mt-lg-0">
-                        <a href="report.php" class="btn btn-style btn-primary"><span class="fa fa-send"></span> Report Now</a>
-                    </div>
-                </div>
+                <h1><a class="navbar-brand" href="index.php"><span class="fa fa-shield"></span> Police FRS</a></h1>
+                <!-- Navbar links and other header code -->
             </nav>
         </div>
     </header>
@@ -97,12 +80,42 @@ mysqli_close($conn);
         </div>
     </section>
 
+    <!-- Quiz Start Section -->
+    <section class="quiz-start-section py-5">
+        <div class="container text-center">
+            <h3 class="title-big">Test Your Cyber Security Awareness</h3>
+            <p>Are you aware of the latest cyber threats and how to protect yourself online? Take our quiz and find out how prepared you are!</p>
+            <button class="btn btn-primary btn-lg mt-3" data-toggle="modal" data-target="#quizModal">Start the Quiz</button>
+        </div>
+    </section>
+
+    <!-- Quiz Confirmation Modal -->
+    <div class="modal fade" id="quizModal" tabindex="-1" role="dialog" aria-labelledby="quizModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="quizModalLabel">Ready to Test Your Knowledge?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    This quiz will test your awareness on various security threats and how to stay safe. Are you ready to begin?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                    <a href="quiz.php" class="btn btn-primary">Yes, Start Quiz</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Footer -->
     <section class="w3l-footers-20">
         <div class="footers20">
             <div class="container">
                 <div class="footers20-content">
-                    <p class="copy-footer-29 text-center">© 2024 Defence Fraud Reporting Portal. All rights reserved.</p>
+                    <p class="copy-footer-29 text-center">© 2024 Police Fraud Reporting Portal. All rights reserved.</p>
                 </div>
             </div>
         </div>
@@ -111,5 +124,6 @@ mysqli_close($conn);
     <!-- jQuery and Bootstrap JS -->
     <script src="assets/js/jquery-3.3.1.min.js"></script>
     <script src="assets/js/theme-change.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

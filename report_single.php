@@ -51,7 +51,7 @@ $admin_comment_row = mysqli_fetch_assoc($admin_comment_result);
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Defence Fraud Report System - Report Suspicion call, sms, email - Home</title>
+    <title>Police Fraud Report System - Report Suspicion call, sms, email - Home</title>
 
     <!-- google fonts -->
     <link href="//fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
@@ -68,7 +68,7 @@ $admin_comment_row = mysqli_fetch_assoc($admin_comment_result);
         <div class="container">
             <nav class="navbar navbar-expand-lg stroke px-0">
                 <h1> <a class="navbar-brand" href="index.php">
-                        <span class="fa fa-shield"></span> Defence FRS
+                        <span class="fa fa-shield"></span> Police FRS
                     </a>
                 </h1>
                 <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
@@ -311,7 +311,7 @@ $admin_comment_row = mysqli_fetch_assoc($admin_comment_result);
                     <div class="footers20-content">
                         <div class="d-grid grid-col-3 grids-content1 bottom-border">
                             <div class="columns copyright-grid align-self">
-                                <p class="copy-footer-29">© 2022 Defence Fraud Reporting Portal. All rights reserved.
+                                <p class="copy-footer-29">© 2024 Police Fraud Reporting Portal. All rights reserved.
                                 </p>
                             </div>
                         </div>
