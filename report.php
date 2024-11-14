@@ -364,19 +364,19 @@
                 height: 100%;
                 display: block;
                 background: white;
-                border: 2px solid #20df80;
+                border: 2px solid #007bff;
                 border-radius: 20px;
                 padding: 1rem;
                 margin-bottom: 1rem;
                 text-align: center;
-                box-shadow: 0px 3px 10px -2px rgba(161, 170, 166, 0.5);
+                box-shadow: 0px 3px 10px -2px rgba(5, 178, 213, 0.8);
                 position: relative;
             }
 
             .radioSection input[type=radio]:checked+label {
-                background: #20df80;
+                background: #007bff;
                 color: white;
-                box-shadow: 0px 0px 20px rgba(0, 255, 128, 0.75);
+                box-shadow: 0px 0px 20px rgba(5, 178, 213, 0.8);
             }
 
             .radioSection input[type=radio]:checked+label::after {
