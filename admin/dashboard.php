@@ -84,6 +84,18 @@ mysqli_close($conn);
             <li><a class="treeview-item" href="page-reports.php"><i class="icon fa fa-circle-o"></i> All Reports</a></li>
           </ul>
         </li>
+        <li class="treeview">
+          <a class="app-menu__item" href="#" data-toggle="treeview">
+            <i class="app-menu__icon fa fa-pencil"></i>
+            <span class="app-menu__label">Post Management</span>
+            <i class="treeview-indicator fa fa-angle-right"></i>
+          </a>
+          <ul class="treeview-menu">
+            <li><a class="treeview-item" href="page-add-post.php"><i class="icon fa fa-circle-o"></i> Add Post</a></li>
+            <li><a class="treeview-item" href="page-posts-list.php"><i class="icon fa fa-circle-o"></i> View Posts</a></li>
+          </ul>
+        </li>
+
         <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-laptop"></i><span class="app-menu__label">User Management</span><i class="treeview-indicator fa fa-angle-right"></i></a>
           <ul class="treeview-menu">
             <li><a class="treeview-item" href="page-user.php"><i class="icon fa fa-circle-o"></i> New User</a></li>
@@ -129,15 +141,9 @@ mysqli_close($conn);
             </div>
           </div>
         </div>
-        <!-- <div class="col-md-6 col-lg-3">
-          <div class="widget-small danger coloured-icon"><i class="icon fa fa-star fa-3x"></i>
-            <div class="info">
-              <h4>Stars</h4>
-              <p><b>500</b></p>
-            </div>
-          </div>
-        </div> -->
+        
       </div>
+      
       <div class="row">
         <div class="col-md-6">
           <div class="tile">

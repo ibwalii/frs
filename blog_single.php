@@ -97,7 +97,7 @@ mysqli_close($conn);
                     <p class="text-muted">Published on <?php echo $created_at; ?></p>
                     <hr>
                     <div class="blog-content">
-                        <?php echo nl2br(htmlspecialchars($content)); ?>
+                        <?php echo $content; ?>
                     </div>
                 </div>
             </div>
